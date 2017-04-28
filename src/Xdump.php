@@ -1,5 +1,5 @@
 <?php
-
+namespace xdump;
 class Xdump {
     public static function gdump(){
 
