@@ -5,6 +5,8 @@ class Xdump {
 
         echo '<pre>';
         $params = func_get_args();
-        var_dump(implode(',',$params));
+        foreach($params as $key=>$val){
+            var_dump($val);
+        }
     }
 }
